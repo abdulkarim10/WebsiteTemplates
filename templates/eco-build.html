@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Eco build — template demo</title>
+    <title>Root &amp; Ridge — Eco build template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -18,15 +18,26 @@
         <a class="back" href="../index.html">← All templates</a>
         <span class="brand"><span class="brand-icon" aria-hidden="true"></span>Root &amp; Ridge</span>
         <nav class="nav-links" aria-label="Primary">
-          <a href="#focus">Focus</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="eco-build.html" class="is-active">Home</a>
+          <a href="eco-build-about.html">About</a>
+          <a href="eco-build-services.html">Services</a>
+          <a href="eco-build-projects.html">Projects</a>
+          <a href="eco-build-contact.html">Contact</a>
         </nav>
       </div>
     </header>
 
     <section class="hero wrap">
       <div>
+        <img
+          class="hero-thumb"
+          src="https://images.unsplash.com/photo-1518780669017-3247962c253d?auto=format&fit=crop&w=1200&q=80"
+          alt="Green hills and sustainable landscape with distant home"
+          width="1200"
+          height="720"
+          fetchpriority="high"
+          decoding="async"
+        />
         <span class="hero-badge">Net-zero ready construction</span>
         <h1>High-performance homes that tread lightly</h1>
         <p class="hero-lead">
@@ -34,8 +45,8 @@
           for families who want comfort without the carbon footprint.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Book a feasibility call</a>
-          <a class="btn btn-ghost" href="#projects">See projects</a>
+          <a class="btn btn-primary" href="eco-build-contact.html">Book a feasibility call</a>
+          <a class="btn btn-ghost" href="eco-build-projects.html">See projects</a>
         </div>
       </div>
       <aside class="hero-card">
@@ -65,13 +76,37 @@
 
     <section class="section wrap" id="projects">
       <div class="section-head">
-        <h2>Project placeholders</h2>
-        <p>Replace with photography, HERS scores, and embodied-carbon notes if you publish them.</p>
+        <h2>Recent high-performance work</h2>
+        <p>Certified and retrofit projects — open the gallery for details and photography.</p>
       </div>
       <div class="grid-projects">
-        <div class="tile" data-label="PHIUS-certified"></div>
-        <div class="tile" data-label="All-electric retrofit"></div>
-        <div class="tile" data-label="Straw-bale studio"></div>
+        <a class="tile tile-photo" href="eco-build-projects.html" data-label="PHIUS-certified">
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+            alt="Efficient modern home with clean roofline for solar"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="eco-build-projects.html" data-label="All-electric retrofit">
+          <img
+            src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
+            alt="Interior of renovated energy-efficient home"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="eco-build-projects.html" data-label="Straw-bale studio">
+          <img
+            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80"
+            alt="Natural materials and wood framing at construction site"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
       </div>
     </section>
 
@@ -79,12 +114,16 @@
       <div class="cta">
         <h2>Share your lot and goals</h2>
         <p>We will outline a realistic path to performance targets and budget bands.</p>
-        <a class="btn btn-primary" href="mailto:build@example.com">build@example.com</a>
+        <a class="btn btn-primary" href="eco-build-contact.html">Contact us</a>
       </div>
     </section>
 
     <footer class="wrap">
-      <p>© Root &amp; Ridge — template demo. <a href="../index.html">All templates</a></p>
+      <p>
+        © Root &amp; Ridge — template demo.
+        <a href="../index.html">All templates</a> ·
+        <a href="https://unsplash.com" rel="noopener noreferrer">Photos: Unsplash</a>
+      </p>
     </footer>
   </body>
 </html>

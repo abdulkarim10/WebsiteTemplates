@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Luxury residential — template demo</title>
+    <title>Aurelius — Luxury template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,9 +21,11 @@
         <a class="back" href="../index.html">← All templates</a>
         <span class="brand">Aurelius</span>
         <nav class="nav-links" aria-label="Primary">
-          <a href="#experience">Experience</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Private inquiry</a>
+          <a href="luxury.html" class="is-active">Home</a>
+          <a href="luxury-about.html">About</a>
+          <a href="luxury-services.html">Services</a>
+          <a href="luxury-projects.html">Residences</a>
+          <a href="luxury-contact.html">Inquiry</a>
         </nav>
       </div>
     </header>
@@ -37,11 +39,20 @@
           aligned with construction from first sketch to move-in.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Request a private consultation</a>
-          <a class="btn btn-ghost" href="#portfolio">View residences</a>
+          <a class="btn btn-primary" href="luxury-contact.html">Request a private consultation</a>
+          <a class="btn btn-ghost" href="luxury-projects.html">View residences</a>
         </div>
       </div>
-      <div class="hero-panel" role="img" aria-label="Reserved visual space for architectural photography"></div>
+      <div class="hero-panel" role="img" aria-label="Architectural photography of a private residence">
+        <img
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+          alt="Spacious luxury living room with tall windows"
+          width="1200"
+          height="900"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
     </section>
 
     <section class="section wrap" id="experience">
@@ -68,13 +79,45 @@
     <section class="section wrap" id="portfolio">
       <div class="section-head">
         <h2>Selected residences</h2>
-        <p>Placeholder panels — high-resolution exteriors and interiors would anchor this section.</p>
+        <p>Representative photography — your commissioned shoots would replace these frames.</p>
       </div>
       <div class="grid-projects">
-        <div class="tile" data-label="Lakeside estate"></div>
-        <div class="tile" data-label="Urban penthouse"></div>
-        <div class="tile" data-label="Coastal compound"></div>
-        <div class="tile" data-label="Wine country retreat"></div>
+        <a class="tile tile-photo" href="luxury-projects.html" data-label="Lakeside estate">
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80"
+            alt="Modern lake house exterior at dusk"
+            width="1000"
+            height="625"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="luxury-projects.html" data-label="Urban penthouse">
+          <img
+            src="https://images.unsplash.com/photo-1600566753088-c6f6a2d1e52a?auto=format&fit=crop&w=1000&q=80"
+            alt="Designer kitchen with marble island"
+            width="1000"
+            height="625"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="luxury-projects.html" data-label="Coastal compound">
+          <img
+            src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1000&q=80"
+            alt="Coastal style home with pool"
+            width="1000"
+            height="625"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="luxury-projects.html" data-label="Wine country retreat">
+          <img
+            src="https://images.unsplash.com/photo-1600585152911-dbcbec8670d6?auto=format&fit=crop&w=1000&q=80"
+            alt="Elegant living space with wood ceiling beams"
+            width="1000"
+            height="625"
+            loading="lazy"
+          />
+        </a>
       </div>
     </section>
 
@@ -82,12 +125,16 @@
       <div class="cta">
         <h2>Private inquiry</h2>
         <p>Introduce your site, timeline, and design partners. Inquiries are reviewed weekly.</p>
-        <a class="btn btn-primary" href="mailto:concierge@example.com">concierge@example.com</a>
+        <a class="btn btn-primary" href="luxury-contact.html">Open inquiry form</a>
       </div>
     </section>
 
     <footer class="wrap">
-      <p>© Aurelius — template demo. <a href="../index.html">All templates</a></p>
+      <p>
+        © Aurelius — template demo.
+        <a href="../index.html">All templates</a> ·
+        <a href="https://unsplash.com" rel="noopener noreferrer">Photos: Unsplash</a>
+      </p>
     </footer>
   </body>
 </html>

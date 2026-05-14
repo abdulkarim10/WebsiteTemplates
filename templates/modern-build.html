@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Modern build — template demo</title>
+    <title>Summit Structures — Modern build template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,9 +21,11 @@
         <a class="back" href="../index.html">← All templates</a>
         <span class="brand">Summit Structures</span>
         <nav class="nav-links" aria-label="Primary">
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+          <a href="modern-build.html" class="is-active">Home</a>
+          <a href="modern-build-about.html">About</a>
+          <a href="modern-build-services.html">Services</a>
+          <a href="modern-build-projects.html">Projects</a>
+          <a href="modern-build-contact.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -36,11 +38,20 @@
           metro region — from preconstruction through turnover.
         </p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Request a proposal</a>
-          <a class="btn btn-ghost" href="#work">View projects</a>
+          <a class="btn btn-primary" href="modern-build-contact.html">Request a proposal</a>
+          <a class="btn btn-ghost" href="modern-build-projects.html">View projects</a>
         </div>
       </div>
-      <div class="hero-visual" role="img" aria-label="Abstract project visualization"></div>
+      <div class="hero-visual">
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80"
+          alt="Contemporary home exterior with large windows and landscaped entry"
+          width="1400"
+          height="1050"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
     </section>
 
     <section class="section wrap" id="services">
@@ -70,13 +81,45 @@
     <section class="section wrap" id="work">
       <div class="section-head">
         <h2>Selected projects</h2>
-        <p>Placeholder tiles — your photography and case studies would live here.</p>
+        <p>Recent multifamily, commercial, and interiors — open the gallery for full case studies.</p>
       </div>
       <div class="grid-projects">
-        <div class="tile" data-label="Office tower"></div>
-        <div class="tile" data-label="Medical"></div>
-        <div class="tile" data-label="Retail"></div>
-        <div class="tile" data-label="Multifamily"></div>
+        <a class="tile tile-photo" href="modern-build-projects.html" data-label="Multifamily courtyard">
+          <img
+            src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=800&q=80"
+            alt="Residential complex with pool and lounge"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="modern-build-projects.html" data-label="Medical office">
+          <img
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb7?auto=format&fit=crop&w=800&q=80"
+            alt="Bright modern interior living space"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="modern-build-projects.html" data-label="Urban retail">
+          <img
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+            alt="High-rise commercial towers in a city"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="modern-build-projects.html" data-label="Active jobsite">
+          <img
+            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
+            alt="Construction workers on a building site"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
       </div>
     </section>
 
@@ -84,12 +127,16 @@
       <div class="cta">
         <h2>Planning your next build?</h2>
         <p>Tell us about scope and timing — we will respond within two business days.</p>
-        <a class="btn btn-primary" href="mailto:hello@example.com">hello@example.com</a>
+        <a class="btn btn-primary" href="modern-build-contact.html">Go to contact</a>
       </div>
     </section>
 
     <footer class="wrap">
-      <p>© Summit Structures — template demo only. <a href="../index.html">Back to templates</a></p>
+      <p>
+        © Summit Structures — template demo.
+        <a href="../index.html">All templates</a> ·
+        <a href="https://unsplash.com" rel="noopener noreferrer">Photos: Unsplash</a>
+      </p>
     </footer>
   </body>
 </html>
