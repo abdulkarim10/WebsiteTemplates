@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Industrial — template demo</title>
+    <title>IronEdge — Industrial template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -18,22 +18,33 @@
         <a class="back" href="../index.html">← All templates</a>
         <span class="brand">IRON<span>EDGE</span></span>
         <nav class="nav-links" aria-label="Primary">
-          <a href="#capabilities">Capabilities</a>
-          <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+          <a href="industrial.html" class="is-active">Home</a>
+          <a href="industrial-about.html">About</a>
+          <a href="industrial-services.html">Services</a>
+          <a href="industrial-projects.html">Projects</a>
+          <a href="industrial-contact.html">Contact</a>
         </nav>
       </div>
     </header>
 
     <section class="wrap hero">
+      <img
+        class="hero-photo-full"
+        src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1400&q=80"
+        alt="Steel and concrete construction site with workers"
+        width="1400"
+        height="788"
+        fetchpriority="high"
+        decoding="async"
+      />
       <h1>Heavy steel. Tight tolerances. Zero excuses.</h1>
       <p class="hero-lead">
         Structural steel, industrial foundations, and plant upgrades for
         manufacturers who cannot afford downtime.
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="#contact">Bid package</a>
-        <a class="btn btn-ghost" href="#work">Field photos</a>
+        <a class="btn btn-primary" href="industrial-contact.html">Bid package</a>
+        <a class="btn btn-ghost" href="industrial-projects.html">Field photos</a>
       </div>
       <div class="hero-strip">
         <div class="stat"><strong>40+</strong><span>Years combined field leadership</span></div>
@@ -66,13 +77,45 @@
     <section class="section wrap" id="work">
       <div class="section-head">
         <h2>Recent work</h2>
-        <p>Placeholder grid — swap for drone stills and project captions.</p>
+        <p>Industrial builds and retrofits — tap through to the full project gallery.</p>
       </div>
       <div class="grid-projects">
-        <div class="tile" data-label="Steel package"></div>
-        <div class="tile" data-label="Plant expansion"></div>
-        <div class="tile" data-label="Warehouse"></div>
-        <div class="tile" data-label="Retrofit"></div>
+        <a class="tile tile-photo" href="industrial-projects.html" data-label="Steel package">
+          <img
+            src="https://images.unsplash.com/photo-1504917595217-d41dc5865665?auto=format&fit=crop&w=800&q=80"
+            alt="Construction tools and hard hat on plans"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="industrial-projects.html" data-label="Plant expansion">
+          <img
+            src="https://images.unsplash.com/photo-1581092160562-40aa08e37a9a?auto=format&fit=crop&w=800&q=80"
+            alt="Engineer reviewing industrial equipment"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="industrial-projects.html" data-label="Warehouse">
+          <img
+            src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=800&q=80"
+            alt="Large warehouse distribution interior"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
+        <a class="tile tile-photo" href="industrial-projects.html" data-label="Retrofit">
+          <img
+            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+            alt="Forklift and pallets in industrial facility"
+            width="800"
+            height="800"
+            loading="lazy"
+          />
+        </a>
       </div>
     </section>
 
@@ -80,12 +123,16 @@
       <div class="cta">
         <h2>Send drawings and bid date</h2>
         <p>We review structural and civil packages within one week when flagged urgent.</p>
-        <a class="btn btn-primary" href="mailto:bids@example.com">bids@example.com</a>
+        <a class="btn btn-primary" href="industrial-contact.html">Contact estimating</a>
       </div>
     </section>
 
     <footer class="wrap">
-      <p>© IronEdge — template demo. <a href="../index.html">All templates</a></p>
+      <p>
+        © IronEdge — template demo.
+        <a href="../index.html">All templates</a> ·
+        <a href="https://unsplash.com" rel="noopener noreferrer">Photos: Unsplash</a>
+      </p>
     </footer>
   </body>
 </html>
